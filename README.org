@@ -1,0 +1,34 @@
+# -*- mode:org -*-
+#+TITLE: Vijay Edwin
+#+STARTUP: indent
+#+OPTIONS: toc:nil
+description
+** Overview :TOC:
+- [[#contact][Contact]]
+  - [[#address][Address]]
+  - [[#email][Email]]
+  - [[#phone][Phone]]
+- [[#objective][Objective]]
+- [[#skills][Skills]]
+- [[#experience][Experience]]
+  - [[#crossview-inc-now-pfsweb-inc][CrossView Inc, Now PFSWeb Inc]]
+  - [[#apple-inc][Apple Inc]]
+- [[#education][Education]]
+  - [[#case-western-reserve-university---physics-2008-2012][Case Western Reserve University - Physics (2008-2012)]]
+
+* Contact
+** Address
+   1312 Q Street
+   Sacramento,California 95811
+** Email
+   vedwin.dev@gmail.com
+** Phone
+   (916) 307-8633   
+* Objective
+* Skills
+* Experience
+** CrossView Inc, Now PFSWeb Inc
+** Apple Inc
+* Education
+** Case Western Reserve University - Physics (2008-2012)
+
