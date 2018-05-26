@@ -3,9 +3,9 @@
 #+STARTUP: indent
 #+OPTIONS: toc:nil
 - Objective
-To build and maintain reliable, performant, and sustainable software systems for the benefit of users worldwide.
+  - To build and maintain reliable, performant, and sustainable software systems for the benefit of users worldwide.
+  
 ** Overview :TOC:
-- [[#objective][Objective]]
 - [[#skills][Skills]]
 - [[#experience][Experience]]
   - [[#crossview-inc-now-pfsweb-inc][CrossView Inc, Now PFSWeb Inc]]
@@ -17,7 +17,6 @@ To build and maintain reliable, performant, and sustainable software systems for
   - [[#email][Email]]
   - [[#phone][Phone]]
 
-* Objective
 * Skills
 * Experience
 ** CrossView Inc, Now PFSWeb Inc
