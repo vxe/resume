@@ -6,9 +6,20 @@ I'm here to build and maintain reliable, performant, and sustainable software sy
   
 *** Overview                                                            :TOC:
   - [[#skills][Skills]]
+    - [[#linux][linux]]
+    - [[#javaclojure][java/clojure]]
+    - [[#http][http]]
+    - [[#nagios][nagios]]
+    - [[#graphite][graphite]]
+    - [[#elk][ELK]]
+    - [[#rabbitmq][rabbitmq]]
+    - [[#haproxy][haproxy]]
+    - [[#hadoop][hadoop]]
+    - [[#puppet][puppet]]
   - [[#experience][Experience]]
-    - [[#crossview-inc-now-pfsweb-inc][CrossView Inc, Now PFSWeb Inc]]
-    - [[#apple-inc][Apple Inc]]
+    - [[#crossview-inc---systems-engineer][Crossview, Inc - Systems Engineer]]
+    - [[#apple-inc---siri-search-sre][Apple, Inc - Siri Search SRE]]
+  - [[#pass][PAss]]
   - [[#education][Education]]
     - [[#case-western-reserve-university---physics-2008-2012][Case Western Reserve University - Physics (2008-2012)]]
   - [[#contact][Contact]]
@@ -17,9 +28,32 @@ I'm here to build and maintain reliable, performant, and sustainable software sy
     - [[#mail][Mail]]
 
 ** Skills
+*** linux
+*** java/clojure
+*** http
+*** nagios
+*** graphite
+*** ELK
+*** rabbitmq
+*** haproxy
+*** hadoop
+*** puppet
 ** Experience
-*** CrossView Inc, Now PFSWeb Inc
-*** Apple Inc
+*** [[http://corporate.pfsweb.com/about/acquisitions/][Crossview, Inc]] - Systems Engineer
+     System Integration consulting firm for IBM/Oracle/SAP eCommerce software platforms.  Previous clients included 
+     - David's Bridal
+     - Tumi
+     - Lindt Chocolate
+     - Tractor Supply Company
+     - Home Depot Canada
+     - The Children's Place
+     - The Pampered Chef
+*** [[https://support.apple.com/en-us/HT201285][Apple, Inc]] - Siri Search SRE
+    Large produce of consumer electronics and internet services.  Products interfaced with include
+    - iOS
+    - Maps
+    - iTunes
+** PAss
 ** Education
 *** Case Western Reserve University - Physics (2008-2012)
 ** Contact
@@ -30,3 +64,54 @@ I'm here to build and maintain reliable, performant, and sustainable software sy
 *** Mail
     1312 Q Street
     Sacramento,California 95811
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
