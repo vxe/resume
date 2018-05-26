@@ -2,12 +2,9 @@
 #+TITLE: Vijay Edwin
 #+STARTUP: indent
 #+OPTIONS: toc:nil
+- Objective
 To build and maintain reliable, performant, and sustainable software systems for the benefit of users worldwide.
 ** Overview :TOC:
-- [[#contact][Contact]]
-  - [[#address][Address]]
-  - [[#email][Email]]
-  - [[#phone][Phone]]
 - [[#objective][Objective]]
 - [[#skills][Skills]]
 - [[#experience][Experience]]
@@ -15,7 +12,18 @@ To build and maintain reliable, performant, and sustainable software systems for
   - [[#apple-inc][Apple Inc]]
 - [[#education][Education]]
   - [[#case-western-reserve-university---physics-2008-2012][Case Western Reserve University - Physics (2008-2012)]]
+- [[#contact][Contact]]
+  - [[#address][Address]]
+  - [[#email][Email]]
+  - [[#phone][Phone]]
 
+* Objective
+* Skills
+* Experience
+** CrossView Inc, Now PFSWeb Inc
+** Apple Inc
+* Education
+** Case Western Reserve University - Physics (2008-2012)
 * Contact
 ** Address
    1312 Q Street
@@ -24,11 +32,3 @@ To build and maintain reliable, performant, and sustainable software systems for
    vedwin.dev@gmail.com
 ** Phone
    (916) 307-8633   
-* Objective
-* Skills
-* Experience
-** CrossView Inc, Now PFSWeb Inc
-** Apple Inc
-* Education
-** Case Western Reserve University - Physics (2008-2012)
-
