@@ -2,7 +2,7 @@
 #+TITLE: Vijay Edwin
 #+STARTUP: indent
 #+OPTIONS: toc:nil
-description
+To build and maintain reliable, performant, and sustainable software systems for the benefit of users worldwide.
 ** Overview :TOC:
 - [[#contact][Contact]]
   - [[#address][Address]]
