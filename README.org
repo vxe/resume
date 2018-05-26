@@ -12,9 +12,9 @@ I'm here to build and maintain reliable, performant, and sustainable software sy
   - [[#education][Education]]
     - [[#case-western-reserve-university---physics-2008-2012][Case Western Reserve University - Physics (2008-2012)]]
   - [[#contact][Contact]]
-    - [[#address][Address]]
     - [[#email][Email]]
     - [[#phone][Phone]]
+    - [[#mail][Mail]]
 
 ** Skills
 ** Experience
@@ -23,10 +23,10 @@ I'm here to build and maintain reliable, performant, and sustainable software sy
 ** Education
 *** Case Western Reserve University - Physics (2008-2012)
 ** Contact
-*** Address
-    1312 Q Street
-    Sacramento,California 95811
 *** Email
     vedwin.dev@gmail.com
 *** Phone
     (916) 307-8633   
+*** Mail
+    1312 Q Street
+    Sacramento,California 95811
