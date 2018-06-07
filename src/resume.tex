@@ -26,13 +26,13 @@
 %	NAME AND ADDRESS SECTION
 %----------------------------------------------------------------------------------------
 
-\moveleft.5\hoffset\centerline{\large\bf Ross Thiele} % Your name at the top
+\moveleft.5\hoffset\centerline{\large\bf Vijay Edwin} % Your name at the top
  
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
  
-\moveleft.5\hoffset\centerline{430 Chantenay Place} % Your address
-\moveleft.5\hoffset\centerline{Johns Creek, GA 30022}
-\moveleft.5\hoffset\centerline{(770) 286-6771 or (770) 315-8721}
+\moveleft.5\hoffset\centerline{1312 Q Street} % Your address
+\moveleft.5\hoffset\centerline{Sacramento, CA 95811}
+\moveleft.5\hoffset\centerline{(916) 307-8633 or (216) 338-4721}
 
 %----------------------------------------------------------------------------------------
 
@@ -44,7 +44,7 @@
  
 \section{OBJECTIVE}  
 
-Motivated college student with special interests in Mechanical Engineering and experience with food service, retail, and personal services. Proven track record of excellent performance and advancement.
+Seeking to build and maintain reliable, performant, and sustainable software systems for the benefit of users worldwide.
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -52,18 +52,8 @@ Motivated college student with special interests in Mechanical Engineering and e
 
 \section{EDUCATION}
 
-{\sl Bachelor of Mechanical Engeering Technology,} Southern Polytechnic State University, Marietta, Georgia, expected December 2017 \\
-
- 
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{TECHNOLOGY \\ SKILLS} 
-
-{\sl Operating Systems:} 
-Windows, Mac OSX \\
-
+{\sl BA Physics}  Case Western Reserve University
+2008-2012 
  
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE SECTION
@@ -71,48 +61,46 @@ Windows, Mac OSX \\
  
 \section{EXPERIENCE}
 
-{\sl Photographer and Warehouse Assistant} \hfill Summer 2013-Present \\
-Pure Red Creative, Tucker GA 
+{\sl SRE - Siri Search} \hfill October 2015-Present \\
+Apple, Inc, Elk Grove CA
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Organized merchandise from numerous clients preparing them to be shot in photo studio
-\item Unloaded trucks and placed boxes in storage
-\item Shipped merchandise using shipping companies such as FedEx and Ups
-\item Built and put together sets for photo shoots
-\item Responsible for correct lighting during shootings
+\item Implemented an in-memory rule-based event processor to dignose infrastructure and software failures.  By taking system monitoring events and configuration management database data as input, I was able to define higher level alert grouping than those provided by nagios while simultaneously correlating these events with hardware failures in production.  This dramatically reduced troubleshooting time for common failures which we were able to codify as rules.  Primary features included
+  \begin{itemize} \itemsep -2pt % Reduce space between items
+    \item Alert analysis and summerization of rougly 100,000 events per second
+    \item Automated classification of hardware failures and ticket creation for appropriate hardware team
+    \item Rudimentary time-series analysis of KPI data from graphite
+  \end{itemize}
+\item Automated weekly software releases for my team's primary search product.  This change was implemented in jenkins which provided logging, timing information and trend data which was consumed by multiple stakeholders.  By centralizing release activities coordination between teams and communication of rollout status to management was greatly eased. \\
+\item Documented entire software stack from data-center to user, spanning databases, network switches, load-balancers and iOS client.  Provided primary on-boarding for 2 cohorts, and will be doing so for a third in Singapore
 \end{itemize}
- 
-{\sl Loader and Green house Worker} \hfill Spring 2013 \\
-Pike Nursery, Johns Creek, GA
+
+{\sl Systems Engineer} \hfill January 2014-September 2015 \\
+CrossView Inc, Beachwood, Ohio
 \begin{itemize} 
-\item Loaded vehicles with products 
-\item Organized greenhouse daily as well as taking care of all the vegetation 
-\end{itemize} 
+\item Technical services and Tier 2 incident response for clients J2EE eCommerce solutions by IBM and SAP  
+\item Provided 24/7 monitoring for revenue generating services for retail clients including:
+  \begin{itemize}   
+  \item Tractor Supply Company, David's Bridal,Tumi, and Home Depot Canada
+  \end{itemize}
+\item Implemented system automation for software releases, incident diagnostics, customer notification and communication.
+\item Performed environment buildouts for clients coordinating data center activities, software configuration, and database migrations.
 
-{\sl Assistant Manager} \hfill Summers 1988-89 \\
-Menchies Frozen Yogurt, Johns Creek, GA
-\begin{itemize}
-\item Prepared frozen yogurt machines for daily operation
-\item Prepared fresh toppings on a daily basis (cut fruit, other toppings, etc.)
-\end{itemize} 
 
 %----------------------------------------------------------------------------------------
-%	COMMUNITY SERVICE SECTION
-%---------------------------------------------------------------------------------------- 
-
-\section{COMMUNITY \\ SERVICE}
-
-Hundreds of hours logged for community service through the Boy Scouts of America. 
-
-%----------------------------------------------------------------------------------------
-%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{EXTRA-CURRICULAR \\ ACTIVITIES} 
+\section{TECHNOLOGY \\ SKILLS} 
 
-Eagle Scout, Boy Scouts of America, 2011
+{\sl Tools:}
+Nagios, Graphite/Graphitus/Grafana, Puppet, Rabbitmq, Haproxy, Hadoop
 
-%----------------------------------------------------------------------------------------
+{\sl Languages:}
+Shell, Lisp, Python, Javascript (node), Java, Golang
+
+{\sl Linux Distributions:} 
+Ubuntu, Debian, CentOS, RHEL, AIX
 
 \end{resume}
 \end{document}
