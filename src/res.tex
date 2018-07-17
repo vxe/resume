@@ -1,0 +1,173 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{mathabx}
+
+\usepackage[usestackEOL]{stackengine}
+\setstackgap{L}{12pt}
+
+\name {\huge Vijay C. Edwin} 
+\address{\makebox[\widthof{\today}][r]{\Longstack[r]{1312 Q Street\\Sacramento, CA 95811 \\ vedwin.dev@gmail.com \\ (916) 307-8633  $\righttoleftarrow$ (216) 338-4721  }}}
+
+\begin{document}
+
+%  \address{ \large 1312 Q Street, Sacramento, CA 95811 }
+% \hfill \address {\large (916) 307-8633}
+% \address used twice to have two lines of address
+\normalsize
+\begin{flushright}
+\address{ (916) 307-8633}
+\end{flushright}
+ 
+\begin{resume}
+ 
+\section{OBJECTIVE}  Seeking to design and operate {\sl reliable, performant}, and  {\sl sustainable} software systems and processes for the use and benefit of users worlwide.
+
+\section{HISTORY}
+
+\large Apple \hfill  \large October 2015-Present \\
+\normalsize
+{ \sl Site Reliability Engineer} \hfill {\sl  Elk Grove, California }
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+  \item Automated weekly software releases for my team's primary software deliverable.  This change was implemented in jenkins provided logging, timing information and trend data which was consumed by multiple stakeholders.  By centralizing release activities coordination between teams and communication of rollout status to management was greatly eased. \\
+  \item Implemented an in-memory rule-based event processor to dignose infrastructure and software failures.  By taking system monitoring events and configuration management database data as input, I was able to define higher level alert grouping than those provided by nagios while simultaneously correlating these events with hardware failures in production.  This dramatically reduced troubleshooting time for common failures which we were able to codify as rules. \\
+
+    % Primary features included
+  % \begin{itemize} \itemsep -2pt % Reduce space between items
+  %   \item Alert analysis and summerization of rougly 100,000 events per second
+  %   \item Automated classification of hardware failures and ticket creation for appropriate hardware team
+  %   \item Rudimentary time-series analysis of KPI data from graphite
+  % \end{itemize}
+
+\item Provided primary on-boarding for 2 cohorts of new-hires and additionally produced comprehensive documention for the the entire environment spanning data , network switches, load-balancers and iOS client.  , and will be doing so for a third in Singapore
+\end{itemize}
+
+\large CrossView Inc \hfill  \large January 2014-September 2015 \\
+\normalsize
+{\sl Systems Engineer} \hfill  {\sl Beachwood, Ohio}
+
+\begin{itemize} 
+% \item Technical services and Tier 2 incident response for clients J2EE eCommerce solutions by IBM and SAP  
+\item Participated in a 24/7 on-call rotation for revenue generating services for retail clients including:
+  \begin{itemize}   
+  \item Tractor Supply Company, David's Bridal,Tumi, and Home Depot Canada
+  \end{itemize}
+\item Implemented system automation for software releases, incident diagnostics, customer notification and communication.
+\item Performed environment buildouts for clients coordinating data center activities, software configuration, and database migrations.
+\end{itemize}
+
+\section{EXPERTISE}
+ Languages: \normalsize \hfill
+Python, Shell, Javascript, Lisp, Java, Golang\\
+ Linux: \normalsize \hfill
+Ubuntu, Debian, CentOS, RHEL, AIX, CoreOS \\ 
+Data Stores: \normalsize \hfill
+MySQL, PostgreSQL, DB2, Hadoop (CDH5), HBase \\
+ Infrastructure: \normalsize \hfill
+Kickstart, PXE, Docker, AWS EC2, Mesos, RabbitMQ \\
+ Operations: \normalsize \hfill
+Nagios, Graphite, Prometheus, Puppet, Ansible, Kibana
+\section{EDUCATION}
+
+\large Case Western Reserve University   \hfill 2008-2012 \\ \normalsize {\sl Physics} \hfill {\sl Cleveland, Ohio}
+
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Original author:
+% % Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+% %
+% % Important note:
+% % This template requires the res.cls file to be in the same directory as the
+% % .tex file. The res.cls file provides the resume style used for structuring the
+% % document.
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% %----------------------------------------------------------------------------------------
+% %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+% %----------------------------------------------------------------------------------------
+
+% \documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+% \usepackage{helvet} % Default font is the helvetica postscript font
+% %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+% \setlength{\textwidth}{5.1in} % Text width of the document
+
+% \begin{document}
+
+% %----------------------------------------------------------------------------------------
+% %	NAME AND ADDRESS SECTION
+% %----------------------------------------------------------------------------------------
+
+% \moveleft.5\hoffset\centerline{\large\bf Vijay Edwin} % Your name at the top
+ 
+% \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+% \moveleft.5\hoffset\centerline{1312 Q Street} % Your address
+% \moveleft.5\hoffset\centerline{Sacramento, CA 95811}
+% \moveleft.5\hoffset\centerline{(916) 307-8633 or (216) 338-4721}
+
+% %----------------------------------------------------------------------------------------
+
+% \begin{resume}
+
+% %----------------------------------------------------------------------------------------
+% %	OBJECTIVE SECTION
+% %----------------------------------------------------------------------------------------
+ 
+% \section{OBJECTIVE}  
+
+% Seeking to build and maintain reliable, performant, and sustainable software systems for the benefit of users worldwide.
+
+% %----------------------------------------------------------------------------------------
+% %	EDUCATION SECTION
+% %----------------------------------------------------------------------------------------
+
+% \section{EDUCATION}
+
+% {\sl BA Physics}  Case Western Reserve University
+% 2008-2012 
+ 
+% %----------------------------------------------------------------------------------------
+% %	PROFESSIONAL EXPERIENCE SECTION
+% %----------------------------------------------------------------------------------------
+ 
+
+
+% %----------------------------------------------------------------------------------------
+% %	COMPUTER SKILLS SECTION
+% %----------------------------------------------------------------------------------------
+
+% % \section{SKILLS} 
+
+% % {\sl Tools:}
+% % Nagios, Graphite/Graphitus/Grafana, Puppet, Rabbitmq, Haproxy, Hadoop
+
+% % {\sl Languages:}
+% % Shell, Lisp, Python, Javascript (node), Java, Golang
+
+% % {\sl Linux Distributions:} 
+% % Ubuntu, Debian, CentOS, RHEL, AIX
+
+% \end{resume}
+% \end{document}
+
+
+
+% % res5
+% % res9b
+% % let 9b
